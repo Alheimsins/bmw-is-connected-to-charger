@@ -1,6 +1,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-# bmw-is-connected-to-charger
+# bmw-is-connected-to-charger (WIP)
 
 Answers the question: is my BMW connected to a charger?
 
@@ -20,6 +20,10 @@ console.log(isConnectedToCharger(username, password)) // => { connected: true, l
 
 - If you have multiple cars added to your Connected Drive account, this script will only return the location of the first car.
 - To get the location of your car, you need to have your share location permission activated.
+
+# Disclaimer
+
+This module is not affiliated with or endorsed by BMW Group. It might break any time.
 
 # Related
 
