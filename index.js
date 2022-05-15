@@ -4,8 +4,7 @@ import getVehicleStatus from './lib/get-vehicle-status.mjs'
 
 async function bmwIsConnectedToCharger ({ username, password }) {
   const { token } = await authenticate({ username, password })
-  const vehicles = await getVehicles({ token })
-  const vin = vehicles[0].vin
+  const { vin } = await getVehicles({ token })
   const status = await getVehicleStatus({ token, vin })
   return status
 }
