@@ -1,6 +1,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-# bmw-is-connected-to-charger (WIP)
+# bmw-is-connected-to-charger
 
 Answers the question: is my BMW connected to a charger?
 
@@ -12,8 +12,27 @@ import isConnectedToCharger from '@alheimsins/bmw-is-connected-to-charger'
 const username = '<connected-drive-username>'
 const password = '<connected-drive-password>'
 
-console.log(isConnectedToCharger(username, password)) // => { connected: true, location: '<your-cars-location>' }
+console.log(isConnectedToCharger(username, password))
 
+```
+
+This will return
+
+```JavaScript
+{
+  isConnected: false,
+  batteryLevel: 54,
+  location: {
+    coordinates: {
+      latitude: <your-latitude>,
+      longitude: <your-longitude>
+    },
+    address: {
+      formatted: <your-formatted-address>
+    },
+    heading: 295
+  }
+}
 ```
 
 # Limitations
@@ -29,6 +48,10 @@ This module is not affiliated with or endorsed by BMW Group. It might break any 
 
 - [calculate-cheapest-charging-schedule](https://github.com/Alheimsins/calculate-cheapest-charging-schedule) Simple module for calculating the cheapest charging schedule for your EV
 - [tibber-get-price-info](https://github.com/Alheimsins/tibber-get-price-info) Retrieve price info from tibber for your current subscription
+
+# Inspiration
+
+- [bimmer-connected](https://github.com/bimmerconnected/bimmer_connected) An amazing open source library
 
 # License
 
