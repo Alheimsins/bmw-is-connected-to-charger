@@ -12,7 +12,9 @@ import isConnectedToCharger from '@alheimsins/bmw-is-connected-to-charger'
 const username = '<connected-drive-username>'
 const password = '<connected-drive-password>'
 
-console.log(isConnectedToCharger(username, password))
+const data = await isConnectedToCharger({ username, password })
+
+console.log(data)
 
 ```
 
