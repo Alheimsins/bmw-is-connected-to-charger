@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/bmw-is-connected-to-charger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Answers the question: is my BMW connected to a charger?",
   "main": "index.js",
   "type": "module",
