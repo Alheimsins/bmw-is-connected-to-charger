@@ -50,6 +50,8 @@ This module is not affiliated with or endorsed by BMW Group. It might break any 
 
 - [calculate-cheapest-charging-schedule](https://github.com/Alheimsins/calculate-cheapest-charging-schedule) Simple module for calculating the cheapest charging schedule for your EV
 - [tibber-get-price-info](https://github.com/Alheimsins/tibber-get-price-info) Retrieve price info from tibber for your current subscription
+- [zaptec-go-start-stop](https://github.com/Alheimsins/zaptec-go-start-stop) A module for starting and stopping your Zaptec Go EV charger
+- [leaf-connect](https://github.com/Alheimsins/leaf-connect) Node.js client library for the Nissan Leaf API
 
 # Inspiration
 
