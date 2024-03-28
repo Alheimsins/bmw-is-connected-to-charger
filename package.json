@@ -35,6 +35,6 @@
     "standard": "17.1.0"
   },
   "dependencies": {
-    "axios": "0.27.2"
+    "axios": "0.28.1"
   }
 }
